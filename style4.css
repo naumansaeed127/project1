@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background: conic-gradient(red, yellow, blue, purple,rgb(7, 2, 66),rgb(7, 82, 20), rgb(100, 22, 100),rgb(130, 0, 0), green, rgb(138, 25, 214));
+    border-radius: 50%;
+    margin: auto;
+    align-items: center;
+    animation: anime 0.4s linear infinite;
+    border: 2px solid rgb(255, 255, 255);
+}
+@keyframes anime{
+    100%{
+        rotate: 360deg;
+    }
+}

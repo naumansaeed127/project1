@@ -1,0 +1,101 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   color: white;
+}
+body{
+  background-image: url(./pexels-wildlittlethingsphoto-933964\ \(2\).jpg);
+   background-position: fixed;
+   background-size: cover; 
+   background-repeat: no-repeat;
+   padding: 0px 0px;
+}
+.logo{
+   object-fit: 3/2;
+   object-fit: cover;
+   mix-blend-mode: white;
+   height: 77px;
+   width: 240px;
+
+}
+.social{
+   float: right;
+   color: aliceblue;
+   padding: 6px 6px;
+}
+#SAVE:hover{
+  background-color: rgb(5, 179, 170);
+}
+#call{
+   margin: 0px 100px;
+   text-decoration: none;
+}
+#clocks{
+   text-decoration: none;
+   padding: 2px 6px;
+}
+.navbar{
+   background-color: rgba(86, 91, 136, 0.164);
+   background-position: fixed;
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+   float: left;
+   margin: 16px 12px;
+   list-style: none;
+}
+.navbar li a{
+   text-decoration: none;
+   padding: 17px 12px;
+   color: white;
+}
+.navbar li a:hover{
+   background-color: rgba(109, 109, 192, 0.103);
+   color: rgb(5, 179, 170);
+}
+#certificate{
+   padding: 17px 25px;
+   background-color: rgb(5, 179, 170);
+   border-style: none;
+   color: white;
+   float: right;
+   cursor: pointer;
+   width: fit-content;
+   border-top-left-radius: 60px;
+}
+#certificate:hover{
+   opacity: inherit;
+   background-color: rgb(25, 218, 201);
+}
+.container{
+   padding: 60px 325px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.B{
+   padding: 4px 0px;
+   text-decoration: none;
+   background-color: aliceblue;
+   border-radius: 3px;
+   font-weight: 10;
+}
+#b{
+   border-color: rgb(5, 179, 170);
+   background-color:rgb(5, 179, 170); 
+}
+#V{
+   color: rgb(16, 107, 104);
+   border-color: rgb(5, 134, 134);
+}
+.B:hover{
+   background-color: rgb(25, 218, 201);
+}
+#b:hover{
+   background-color:rgb(25, 218, 201);
+}
+#IMAGE{
+   height: 380px;
+   width: 270px;
+   
+}

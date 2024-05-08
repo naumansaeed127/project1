@@ -1,0 +1,72 @@
+body{
+    background-image: url("image 2.webp");
+}
+*{
+    color: #ddd;
+}
+#logo{
+margin-bottom: -1rem;
+aspect-ratio: 3/3;
+mix-blend-mode: lighten;
+
+
+}
+nav {
+    background-color: rgb(5, 4, 10);
+    display: flex; /* Makes items display horizontally */
+   text-align: right;
+   justify-content: space-between; /* Spreads items evenly */
+   padding: 10px; 
+   padding-left: 850px;
+   margin-top: -1rem;
+  }
+  
+  ul {
+    list-style: none; /* Removes default list markers */
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    text-align: center;
+    margin-top: 1rem;
+    text margin-top: 3rem;
+  }
+  
+  li {
+    display: inline-block; /* Makes list items display inline */
+    margin-right: 40px; /* Adds margin between list items */
+    font-weight: 6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits the color from the nav element */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+
+  }
+  
+  a:hover {
+    color: #6797ff; /* Changes link color on hover */
+  }
+  .p2{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 2rem;
+  } 
+  hr{
+    grid-column: 1/-1;
+    width: 28%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 2px solid rgb(255, 255, 255);
+    text-decoration: dotted;
+}
+@media  only screen and(max-width: 768px) {
+    hr{
+        margin: 0 auto;
+    }
+    
+}
